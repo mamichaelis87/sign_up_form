@@ -33,7 +33,7 @@ body {
   font-size: xx-large;
   background-color: darkcyan;
   background-color: rgba(0, 0, 0, .25);
-  width: 100%;
+  width: inherit;
   text-align: center;
   position: fixed;
   /* left: 0; */
@@ -47,7 +47,7 @@ h3 {
 .form-container {
   background-color: lightcyan;
   color: darkslategrey;
-  height: 100vh;
+  /* height: 100vh; */
   width: 60vw;
 }
 
