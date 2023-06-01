@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background-image: url(./casey-horner-XE2RmuV6ed0-unsplash.jpg);
+  /* Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Casey Horner</a> on <a href="https://unsplash.com/images/nature/landscape?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+  background-size: cover;
+  
+  color: azure;
+  display: flex;
+ 
+  padding: 0;
+  margin: 0;
+}
+
+.name-info, .contact-info, .password-info {
+  display: flex;
+}
+
+.image-containter {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: none;
+  position: relative;
+}
+
+.logo {
+  font-family: Lobster, 'Courier New', Courier, monospace;
+  color: azure;
+  font-size: xx-large;
+  background-color: darkcyan;
+  background-color: rgba(0, 0, 0, .25);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  /* padding: .25rem; */
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.form {
+  background-color: lightcyan;
+  color: darkslategrey;
+  height: 100vh;
+  width: 60vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: 5px 0px 5px 0px;
+  color: aliceblue;
+}
+
+.sub-info {
+  display: flex;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+label {
+  font-size: .75rem;
+}
+
+.invite p {
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+.confirm  {
+  padding: 1.5rem;
+  font-size: .9rem;
+}
+
+button {
+  background-color: skyblue;
+  color: darkslategray;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: inset;
+  font-weight: bold;
+}
+
+input {
+  border-color: #E5E7EB;
+  border: 2px;
+  border-color: rgba(0, 0, 0, .25);
+  border-radius: .25rem;
+}
+
+input:focus:valid {
+  outline: none;
+  border: 2px;
+  box-shadow: 0 0 3px darkblue;
+}
+
+input:invalid:focus {
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
