@@ -36,7 +36,7 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
-  left: 0;
+  /* left: 0; */
   /* padding: .25rem; */
 }
 
@@ -44,7 +44,7 @@ h3 {
   margin-top: 0;
 }
 
-.form {
+.form-container {
   background-color: lightcyan;
   color: darkslategrey;
   height: 100vh;
